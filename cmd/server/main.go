@@ -11,6 +11,7 @@ import (
 
 func main() {
 	if err := cmd.Execute(); err != nil {
+
 		log.Fatalf("Failed to parse command line arguments: %q", err)
 	}
 
